@@ -1,0 +1,11 @@
+Package: NGM
+Type: Package
+Title: Newton's Growth Model (NGM)
+Version: 1.0
+Date: 2017-01-18
+Author: Jonggyu Baek
+Maintainer: Jonggyu Baek <jongguri@umich.edu>
+Description: This package offers tools for 1) processing data to fit hierarchical NGM (HNGM), 2) fitting BSSVMOU (HNGM), 3) visualizing results.
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.4), RcppEigen, truncnorm
+LinkingTo: Rcpp, RcppEigen

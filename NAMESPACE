@@ -1,0 +1,4 @@
+useDynLib(NGM)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom(truncnorm, rtruncnorm)
